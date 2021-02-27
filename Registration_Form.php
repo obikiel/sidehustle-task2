@@ -47,32 +47,34 @@
             border:none;
             border-bottom: 2px solid gold;
             fill:none;
-            background:transparent;
+            background-color:transparent;
             display:block;
             width:60%;
+            color:gold;
             
         }
         .input
         {
             margin-left:30%;
             width:60%;
-            border:none;
             border-bottom:2px solid gold;
             fill: none;
-            background: transparent;
+            background-color:transparent;
             display:block;
+            color:gold;
+            
         }
         
         
         .input1:focus
         {
-            background-color:gold;
+            background-color:transparent;
             border:none;
             outline:none;
         }
         .input:focus
         {
-            background-color:gold;
+            background-color:transparent;
             border:none;
             outline:none;
 
@@ -90,7 +92,7 @@
         }
         .label
         {
-            
+            margin-top:2;
             display:block;
             margin-left:-70%;
         }
@@ -122,11 +124,11 @@
     <h1> Registration Form</h1>
                  <div class="container">
                     <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-                     <label class="label">FirstName</label>   <input type="text" class="input1" name="firstname"><br><br>
-                     <label class="label">SecondName</label>   <input type="text" class="input" name="secondname"><br><br>
-                     <label class="label">Phone Number</label><input type="number" class="input" name="phone-number"><br><br>
-                     <label class="label">Email</label><input type="email" class="input" name="email"><br><br>
-                        <label class="label">Date of Birth:</label> <input type="date" class="input" name="date_of_birth"><br><br> 
+                     <label class="label">FirstName</label>   <input type="text" class="input1" required name="firstname"><br><br>
+                     <label class="label">SecondName</label>   <input type="text" class="input" required name="secondname"><br><br>
+                     <label class="label">Phone Number</label><input type="number" class="input" required name="phone-number"><br><br>
+                     <label class="label">Email</label><input type="email" class="input" required name="email"><br><br>
+                        <label class="label">Date of Birth:</label> <input type="date" required class="input" name="date_of_birth"><br><br> 
                         <label class="label">Geopolitical Zones</label>
                             <select class="input" id="geopolitical zones" name="zones">    
                             <option value="NorthCentral">NorthCentral</option>
