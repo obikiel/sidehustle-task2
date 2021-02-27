@@ -55,6 +55,7 @@
         }
         .input
         {
+            border:none;
             margin-left:30%;
             width:60%;
             border-bottom:2px solid gold;
@@ -71,12 +72,14 @@
             background-color:transparent;
             border:none;
             outline:none;
+            border-bottom:2px solid gold;
         }
         .input:focus
         {
             background-color:transparent;
             border:none;
             outline:none;
+            border-bottom:2px solid gold;
 
         }
         .button
