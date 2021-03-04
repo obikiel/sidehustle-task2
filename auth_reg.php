@@ -45,7 +45,7 @@
         <input type="text" required name="name" placeholder="name"><br><br>
         <input type="text" required name="username" placeholder="username"><br><br>
         <input type="number" required name="number" placeholder="phone number"><br><br>
-        <input type="email" required name="confirm" placeholder="email"><br><br>
+        <input type="email" required name="email" placeholder="email"><br><br>
         <input type="submit" name="register" value="Register">
         
     </form>
