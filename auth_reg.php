@@ -5,7 +5,7 @@
             $_SESSION['username']=$_POST['username'];
             $_SESSION['email']=$_POST['email'];
          
-            header('Location:auth_login.php');
+            header('Location:index.php');
         }
 
     ?>
@@ -49,6 +49,6 @@
         <input type="submit" name="register" value="Register">
         
     </form>
-    <p>if you have an account already, <a href="auth_login.php">login</a></p>
+    <p>if you have an account already, <a href="index.php">login</a></p>
 </body>
 </html>

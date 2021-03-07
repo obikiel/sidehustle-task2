@@ -35,6 +35,6 @@
    
         <h1><strong><?php echo $username."  "."you are logged in! ";?></strong></h1>
         
-        <button><a href="auth_login.php"> <strong>logout</strong> </a></button>
+        <button><a href="index.php"> <strong>logout</strong> </a></button>
 </body>
 </html>
